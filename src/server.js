@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     return res.end('Criação de usuário')
   }
 
-  return res.end('Nexus Test')
+  return res.end('Nexus Default Res')
 })
 
 server.listen(3333)
